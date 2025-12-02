@@ -6,3 +6,17 @@ GRPC localhost:50051/greet.Greeter/SayHello
 {
   "name": "Frodo"
 }
+
+### Actuator Health Checks
+
+# Overall health
+GET http://localhost:8080/actuator/health
+Accept: application/json
+
+### Liveness probe
+GET http://localhost:8080/actuator/health/liveness
+Accept: application/json
+
+### Readiness probe
+GET http://localhost:8080/actuator/health/readiness
+Accept: application/json

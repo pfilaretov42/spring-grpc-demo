@@ -5,3 +5,15 @@ spring:
   grpc:
     server:
       port: 50051
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      probes:
+        enabled: true
+  server:
+    port: 8080
