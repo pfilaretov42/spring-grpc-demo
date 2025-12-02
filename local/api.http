@@ -1,7 +1,7 @@
 ### gRPC Requests
 
 ### Call sayHello method
-GRPC localhost:50051/dev.pfilaretov42.spring.grpc.proto.Greeter/SayHello
+GRPC localhost:50051/greet.Greeter/SayHello
 
 {
   "name": "Frodo"
