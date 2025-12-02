@@ -29,8 +29,8 @@ dependencies {
     implementation 'org.springframework.grpc:spring-grpc-spring-boot-starter'
 
     // gRPC and Protobuf runtime
-//    implementation 'io.grpc:grpc-stub'
-//    implementation 'io.grpc:grpc-protobuf'
+    implementation 'io.grpc:grpc-stub'
+    implementation 'io.grpc:grpc-protobuf'
     implementation 'io.grpc:grpc-services'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
