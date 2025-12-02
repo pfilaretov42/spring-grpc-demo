@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-grpc-demo
+
+#  grpc:
+#    server:
+#      port: 9090
